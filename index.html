@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="css/stylesheetindex.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Blog</title>
-  </head>
-  <body>
-    <h1 class="content">Blog</h1>
-    <p class="content">Not open right now come back later <br>Thanks.</p>
-    <a class="purple" href="mailto:support@mail.wafflecookie.cc">Mail support</a>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Screen iFrame</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      border: none;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="http://live.wafflecookie.cc:8888" allowfullscreen></iframe>
+</body>
 </html>
